@@ -1,0 +1,63 @@
+Variables:	variables is an emplty container which holds value;
+
+How to write variable:     int i = 10;   //here i is the variable name or identifier;
+										//10 is the value
+										// int is the data-type
+
+Rules for identifier:
+			1.identifier contains letters, numbers,dollar($),underscore(_)
+			2.it can't start with numbers;
+			3.keywords/reserved words are not allowed as an identifier
+			4.Case sensitive i.e. ABC and abc are the individual identifier.  
+										
+Types of data in java:
+
+1.Primitive data-types:
+			1.Numeric : byte(1b), short(2b),int (4b),long(8bytes)
+			2.Decimal : float(4b),double(8b)
+			2.character: char (2b)
+			3.boolean : true/false(size depends on jvm)
+	
+2.Non-primitive data-types :
+			1.Array
+			2.String
+			3.Enum
+			
+Operators:
+			are the symbols which performs operation on operands
+			
+			Types of Operators:
+
+			1.Arithmetic :
+							+,-,*,/,%
+			2.urinary    :
+							++ (pre/post)
+							--(pre/post)
+			3.Assignment :
+							=
+							compound assignment operator:
+							
+							+=,-=,/=,*=
+			4.Comparison :
+							==,>,<,>=,<=,!=
+							
+			5.Logical Operator:
+			
+							AND &&
+							OR  ||
+							not  !
+							
+							
+							
+Type Casting : changing one datatype to other;
+
+			1.Implicit TypeCasting (Widening) done by java or JVM
+				
+				byte -> short -> int -> long ->float -> double
+				
+				char -> int
+			2.Explicit TypeCasting (Narrowing) done by user:
+			
+				double -> float -> long -> int -> short -> byte
+				int ->  char
+				
